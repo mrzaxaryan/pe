@@ -1,0 +1,4 @@
+<Solution>
+  <Project Path="src/PeSharp/PeSharp.csproj" />
+  <Project Path="src/PeSharp.Demo/PeSharp.Demo.csproj" />
+</Solution>

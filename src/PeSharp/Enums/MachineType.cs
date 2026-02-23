@@ -1,0 +1,32 @@
+namespace PeSharp;
+
+public enum MachineType : ushort
+{
+    Unknown = 0x0,
+    I386 = 0x14C,
+    R3000 = 0x162,
+    R4000 = 0x166,
+    R10000 = 0x168,
+    WceMipsV2 = 0x169,
+    Alpha = 0x184,
+    Sh3 = 0x1A2,
+    Sh3Dsp = 0x1A3,
+    Sh3E = 0x1A4,
+    Sh4 = 0x1A6,
+    Sh5 = 0x1A8,
+    Arm = 0x1C0,
+    Thumb = 0x1C2,
+    ArmNt = 0x1C4,
+    Am33 = 0x1D3,
+    PowerPc = 0x1F0,
+    PowerPcFp = 0x1F1,
+    Ia64 = 0x200,
+    Mips16 = 0x266,
+    Alpha64 = 0x284,
+    MipsFpu = 0x366,
+    MipsFpu16 = 0x466,
+    Ebc = 0xEBC,
+    Amd64 = 0x8664,
+    M32R = 0x9041,
+    Arm64 = 0xAA64,
+}
